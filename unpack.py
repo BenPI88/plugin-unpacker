@@ -27,4 +27,4 @@ os.system("unzip " + dirfrom + "/*.zip")
 reload()
 
 print("Copying files to directory...")
-os.system("cp " + dirfrom, "/*.jar " + dirto + "/*")
+os.system("cp " + dirfrom + "/*.jar " + dirto + "/*")
