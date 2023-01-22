@@ -22,9 +22,9 @@ dirfrom=input("")
 reload()
 
 print("Unzipping .zip files...")
-os.system("unzip " + dirfrom + "/*.zip")
+os.system("unzip '" + dirfrom + "/*.zip'")
 
 reload()
 
 print("Copying files to directory...")
-os.system("cp " + dirfrom + "/*.jar " + dirto + "/*")
+os.system("cp '" + dirfrom + "/*.jar' " + dirto + "'/*'")
