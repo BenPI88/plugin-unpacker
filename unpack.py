@@ -7,11 +7,6 @@ def logo():
 clear()
 logo()
 
-fade1=░
-fade2=▒
-fade3=▓
-fade4=█
-
 print("Minecraft Directory")
 dirto=input("")
 
